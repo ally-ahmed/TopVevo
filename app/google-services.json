@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813720770837",
+    "firebase_url": "https://vevo-e7223.firebaseio.com",
+    "project_id": "vevo-e7223",
+    "storage_bucket": "vevo-e7223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813720770837:android:3fdbffbff2bbdc98",
+        "android_client_info": {
+          "package_name": "com.example.vagabond.ip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813720770837-sh8ctres15uoc5o2ogkt63a4070hn1et.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vagabond.ip",
+            "certificate_hash": "dd34c424ceb80853294aa11811aee69a1e058839"
+          }
+        },
+        {
+          "client_id": "813720770837-dga9uf472dup0gij22s146dbvksroc7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPBcX269HUvBAqpwufBPjmkPRkBYZSQG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813720770837-dga9uf472dup0gij22s146dbvksroc7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
