@@ -1,5 +1,6 @@
 package com.example.vagabond.ip;
 
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
@@ -75,6 +76,7 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.VideoViewH
 
         @Override
         public void onClick(View v) {
+
             int itemPosition = getLayoutPosition();
             Intent intent = new Intent(mContext,VideoPlay.class );
             intent.putExtra("position", itemPosition);

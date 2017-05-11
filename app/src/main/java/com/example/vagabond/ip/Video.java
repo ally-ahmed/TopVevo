@@ -8,36 +8,46 @@ import org.parceler.Parcel;
 
 @Parcel
 public class Video {
-    private String mTitle;
-    private String mImageUrl;
-    private String mchannelTitle;
-    private String mVideoId;
-    private String mDescription;
+    String title;
+    String imageUrl;
+    String channelTitle;
+    String videoId;
+    String description;
+    String pushId;
 
     public Video(){}
 
     public Video(String title, String channelTitle, String imageUrl, String videoId,String description){
-        this.mTitle = title;
-        this.mchannelTitle = channelTitle;
-        this.mImageUrl = imageUrl;
-        this.mVideoId = videoId;
-        this.mDescription = description;
+        this.title = title;
+        this.channelTitle = channelTitle;
+        this.imageUrl = imageUrl;
+        this.videoId = videoId;
+        this.description = description;
     }
 
     public String getTitle(){
-        return mTitle;
+        return title;
     }
     public String getChannelTitle(){
-        return mchannelTitle;
+        return channelTitle;
     }
 
     public String getImageUrl() {
-        return mImageUrl;
+        return imageUrl;
     }
 
     public String getVideoId() {
-        return mVideoId;
+        return videoId;
     }
 
-    public String getDescription(){return mDescription;}
+    public String getDescription(){return description;}
+
+
+    public String getPushId() {
+        return pushId;
+    }
+
+    public void setPushId(String pushId) {
+        this.pushId = pushId;
+    }
 }

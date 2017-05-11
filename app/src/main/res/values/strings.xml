@@ -5,4 +5,5 @@
     <string name="action_play_next">Play Next</string>
     <string name="backdrop_title">Vevo MUSIC</string>
     <string name="backdrop_subtitle">This season top 40 tracks</string>
+    <string name="sign_out">Sign Out</string>
 </resources>
